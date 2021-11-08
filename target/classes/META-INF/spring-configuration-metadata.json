@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "name": "bot",
+      "type": "com.sky.idea.entity.Ryder37Bot",
+      "sourceType": "com.sky.idea.entity.Ryder37Bot"
+    },
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.sky.idea.config.DruidConfig",
+      "sourceMethod": "DruidDataSources()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "bot.socks-proxy-host",
+      "type": "java.lang.String",
+      "sourceType": "com.sky.idea.entity.Ryder37Bot"
+    },
+    {
+      "name": "bot.socks-proxy-port",
+      "type": "java.lang.String",
+      "sourceType": "com.sky.idea.entity.Ryder37Bot"
+    },
+    {
+      "name": "bot.token",
+      "type": "java.lang.String",
+      "sourceType": "com.sky.idea.entity.Ryder37Bot"
+    }
+  ],
+  "hints": []
+}
